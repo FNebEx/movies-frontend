@@ -17,20 +17,6 @@ function App() {
         <Route path="/movies" element={<DetailedMoviesList />} />
         <Route path="/movies/:movieId" element={<FullMovie />} />
         <Route path="/theaters" element={<TheaterList />} />
-        {/* <Routes>
-        <Route exact path="/">
-        <MoviesList />
-        </Route>
-        <Route exact path="/movies">
-        <DetailedMoviesList />
-        </Route>
-        <Route exact path="/movies/:movieId">
-        <FullMovie />
-        </Route>
-        <Route exact path="/theaters">
-        <TheaterList />
-        </Route>
-        </Routes> */}
       </Routes>
     </React.Fragment>
   );
